@@ -1,3 +1,5 @@
+jpa:
+  generate-ddl: false
 # 项目相关配置
 ruoyi:
   # 名称
@@ -12,7 +14,6 @@ ruoyi:
   addressEnabled: false
   # 验证码类型 math 数字计算 char 字符验证
   captchaType: math
-
 # 开发环境配置
 server:
   # 服务器的HTTP端口，默认为8080
